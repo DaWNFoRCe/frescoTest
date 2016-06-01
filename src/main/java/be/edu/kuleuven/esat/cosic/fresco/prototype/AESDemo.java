@@ -59,7 +59,7 @@ public class AESDemo implements Application {
 	}
 
 	public ProtocolProducer prepareApplication(ProtocolFactory factory) {
-
+		//the factory is select
 		BasicLogicFactory blf = (BasicLogicFactory) factory;
 
 		// Convert input to open FRESCO values.
